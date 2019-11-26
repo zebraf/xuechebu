@@ -16,4 +16,3 @@ class Test(object):
         self.page.homepage.goto_mine()
         self.page.minepage.goto_login()
         self.page.loginpage.login_func(name, pwd)
-        print('test')
