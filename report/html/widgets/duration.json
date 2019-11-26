@@ -1,0 +1,11 @@
+[ {
+  "uid" : "cba160bb071a4ef7",
+  "name" : "Test.test_login_func[18610086743-HJKL123!]",
+  "time" : {
+    "start" : 1574586522994,
+    "stop" : 1574586564378,
+    "duration" : 41384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

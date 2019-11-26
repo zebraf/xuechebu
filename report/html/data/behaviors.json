@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test.test_login_func[18610086743-HJKL123!]",
+    "uid" : "cba160bb071a4ef7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574586522994,
+      "stop" : 1574586564378,
+      "duration" : 41384
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

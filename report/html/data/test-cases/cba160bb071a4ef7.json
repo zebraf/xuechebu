@@ -1,0 +1,60 @@
+{
+  "uid" : "cba160bb071a4ef7",
+  "name" : "Test.test_login_func[18610086743-HJKL123!]",
+  "fullName" : "test_login.Test.test_login_func[18610086743-HJKL123!]",
+  "historyId" : "dcb54ae5fd950e99a11139d79dad941a",
+  "time" : {
+    "start" : 1574586522994,
+    "stop" : 1574586564378,
+    "duration" : 41384
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Zebrafish"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "3736-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test.test_login_func[18610086743-HJKL123!]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cba160bb071a4ef7.json",
+  "parameterValues" : [ ]
+}

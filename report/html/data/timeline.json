@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Zebrafish",
+    "children" : [ {
+      "name" : "3736-MainThread",
+      "children" : [ {
+        "name" : "Test.test_login_func[18610086743-HJKL123!]",
+        "uid" : "cba160bb071a4ef7",
+        "parentUid" : "d93fe5d5856b1eb77f1f9cad66e80bef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574586522994,
+          "stop" : 1574586564378,
+          "duration" : 41384
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d93fe5d5856b1eb77f1f9cad66e80bef"
+    } ],
+    "uid" : "9425ae16472f1495c2099f05eb691f1a"
+  } ]
+}
