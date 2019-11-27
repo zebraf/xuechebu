@@ -19,4 +19,4 @@ class LoginPage(BasePage):
         self.click_func(self.com_btn)
 
     def get_nick_name(self):
-        return self.find_ele(self.nick_name)
+        return self.find_ele(self.nick_name).text
