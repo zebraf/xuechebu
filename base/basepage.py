@@ -21,3 +21,6 @@ class BasePage(object):
         ele = self.find_ele(location, timeout)
         ele.clear()
         ele.send_keys(text)
+
+    def get_attruibute_func(self,location,attr_name,timeout=10):
+        return self.find_ele(location,timeout).get_attribute(attr_name)
