@@ -11,8 +11,11 @@ class Test(object):
     def teardown(self):
         self.driver.quit()
 
-    @pytest.mark.parametrize('name,pwd', login_data())
-    def test_login_func(self, name, pwd):
+    @pytest.mark.parametrize('name,pwd,expect', login_data())
+    def test_login_func(self, name, pwd, expect):
         self.page.homepage.goto_mine()
         self.page.minepage.goto_login()
         self.page.loginpage.login_func(name, pwd)
+        nick_name = self.page.loginpage.get_nick_name()
+        print('昵称是', nick_name)
+        assert expect in nick_name
